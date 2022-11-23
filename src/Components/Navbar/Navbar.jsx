@@ -28,15 +28,15 @@ const Navbar = () => {
          <div className='col-md-5 d-flex justify-content-end align-items-center'>
             <div className='call d-flex mx-2 justify-content-start  align-items-center'>
             <img className='px-1' src={Call} alt=""/>
-            <h6>Cart</h6>
+            <h6>Contact Us</h6>
             </div>
             <div className='call d-flex mx-2  align-items-center'>
             <img className='px-1' src={Cart} alt=""/>
-            <h6>Wishlist</h6>
+            <h6>Track Order</h6>
             </div>
             <div className='call d-flex mx-2  align-items-center'>
             <img className='px-1' src={Location} alt=""/>
-            <h6>Login</h6>
+            <h6>Find A Store</h6>
             </div>
          </div>
       </div>
