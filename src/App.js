@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+// import Home from './Pages/Home.jsx';
+// import "./Appsass.scss";
+import React from 'react';
+// Lazy loading 
+const Home = React.lazy(() => import('./Pages/Home.jsx'));
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <React.Suspense fallback={<div className='fs-1 text-white  bg-info h-100 text-center m-5 p-5'><h1>Loading...</h1></div>}>
+      <Home/>
+      </React.Suspense>
+    </>
+    
   );
 }
 

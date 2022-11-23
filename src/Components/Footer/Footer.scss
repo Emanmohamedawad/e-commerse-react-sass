@@ -1,0 +1,54 @@
+$primary-color:#FFF200;
+$secondary-color :#542E90;
+
+.footer{
+   background-color: #3C3C3B;
+   color: #FFFFFF;
+   a{
+      text-decoration: none !important;
+      color: white !important;
+   }
+   p{
+      font-size: 16px;
+   }
+   .dataside {
+      border-left: 1px solid rgba(204, 204, 204, 0.341);
+      .email{
+      .emailinput{
+         width: 576px;
+         color: $secondary-color;
+         font-size: 12px;
+         height: 48px;
+         border: none;
+         border-radius: 25px;
+      }
+      .btnsub{
+         background-color: $primary-color;
+         color: #000000;
+         font-size: 12px;
+         width: 120px;
+         height: 38px;
+         border-radius: 25px;
+         border: none;
+         left: 28rem;
+         right: 0px;
+         bottom: 2px;
+         top: 4px; 
+      }
+   }
+   .leftside{
+      margin-right: 80px;
+   }
+   .righ{
+      border-left: 1px solid rgba(204, 204, 204, 0.341);
+      padding-left: 40px;
+   }
+   }
+   .copy{
+      border-top: 1px solid rgba(204, 204, 204, 0.341);
+      .navnas{
+         width: 100px;
+         height: 19px;
+      }
+   }
+}

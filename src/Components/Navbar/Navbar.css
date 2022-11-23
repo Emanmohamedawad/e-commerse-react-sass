@@ -1,0 +1,14 @@
+.nav {
+  background-color: var(--primary-color);
+  color: #000000;
+}
+.nav .logoname {
+  color: #000000;
+}
+.nav .first-row span {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+.nav .first-row p {
+  font-size: 14px;
+}/*# sourceMappingURL=Navbar.css.map */

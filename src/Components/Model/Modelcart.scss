@@ -1,0 +1,114 @@
+
+$primary-color:#FFF200;
+$secondary-color :#542E90;
+
+
+.modal {
+   .modal-dialog {
+      position: fixed !important;
+      right: -320px !important;
+
+      height: 100% !important;
+
+      max-height: unset !important;
+      margin: 0 !important;
+
+      -webkit-transition: opacity 0.3s linear, right 0.3s ease-out !important;
+      -moz-transition: opacity 0.3s linear, right 0.3s ease-out !important;
+      -o-transition: opacity 0.3s linear, right 0.3s ease-out !important;
+      transition: opacity 0.3s linear, right 0.3s ease-out !important;
+      right: 0 !important;
+
+
+
+      .modal-content {
+         height: 100% !important;
+         border-radius: 0 !important;
+         overflow-y: auto !important;
+         border: none;
+
+
+
+         .modal-body{
+            .titlecart{
+               text-align: center !important;
+               color: $secondary-color !important;
+               font-weight: bolder;
+               font-size: 28px;
+            }
+            h6{
+               font-size: 18px;
+               font-weight: bolder;
+            }
+
+            .itembox{
+               border: 0.75px solid #ECECEC;
+               border-radius: 7px;
+               .imgside{
+                  width: 104px;
+                  height: 104px;
+                  margin-right: 10px;
+                  img{
+                     border-radius: 8px;
+                  }
+                  
+               }
+            }
+
+               .itemdate{
+                  h6{
+                     color: $secondary-color;
+                  }
+                  .dec{
+                     font-weight: bold;
+                     margin-bottom: 2px !important;
+                  }
+                  .qu{
+                     margin-bottom: 2px !important;
+                  }
+                  .btnremove{
+                     border-radius: 25px;
+                     border: none;
+                     width: 100px;
+                     height: 30px;
+                     padding-bottom: 1.5rem;
+                     color: #000000;
+                     background-color: $primary-color;
+                     margin-right: 20px;
+                     margin-bottom: 20px;
+                  }
+               }
+
+               h4{
+                  font-size: h4;
+               }
+
+               .btncart{
+                  .btnreview{
+                        background-color: $primary-color;
+                        border: 0;
+                        border-radius: 25px;
+                        font-size: 12px;
+                        font-weight: bolder;
+                        width: 196px;
+                        height: 48px;
+                  }
+                  .btncheck{
+                     background-color: $secondary-color;
+                     border: 0;
+                     border-radius: 25px;
+                     color: #fff;
+                     font-size: 12px;
+                     font-weight: bolder;
+                     width: 196px;
+                     height: 48px;
+                  }
+               }
+
+            
+
+         }
+         
+      }
+   }
+}

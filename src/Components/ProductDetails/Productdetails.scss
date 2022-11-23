@@ -1,0 +1,117 @@
+.productdetails{
+   .tabs{
+      margin-left: 130px;
+      span{
+         text-decoration: underline;
+      }
+   }
+   p{
+      font-size: 16px;
+      font-weight: bold;
+   }
+   .swiper{
+      margin-top: 20px !important;
+      .SwiperSlide{
+         border-radius: 0 !important;
+      }
+      .swiper-button-next, .swiper-button-prev{
+         top: 94% !important;
+         width: 16px;
+         height: 24px;
+        color: #3C3C3B !important;
+      }
+
+   }
+   // Siper-Slider
+
+
+
+
+   .price{
+      h4{
+         color: var(--secondary-color);
+      }
+      span{
+         font-size: 12px;
+      }
+      p{
+         text-decoration: line-through;
+      }
+      .bgsale{
+         width: 77px;
+         height: 27px;
+         font-size: 14px; 
+         text-align: center;
+         padding-top: 3px;
+         background-color: var(--primary-color);
+         font-weight: bold;
+      }
+   }
+   .size{
+      .circilesize{
+         border: 2px solid #ccc;
+         width: 60px;
+         height: 55px;
+         border-radius: 50%;
+         text-align: center;
+         font-size: 10px;
+         font-weight: bold;
+         color: var(--secondary-color);
+         background-color: transparent;
+         cursor: pointer;
+         &:hover{
+            background-color: #ccc;
+            color: #000000;
+         }
+      }
+   }
+   .color{
+      .bordercolor{
+         border: 1px solid var(--secondary-color);
+         border-radius: 40px;
+      }
+   }
+   .quantity{
+      label{
+         color: var(--secondary-color);
+         font-weight: bold;
+      }
+
+      .btnadd{
+         color: #fff;
+         background-color: var(--secondary-color);
+         border: none;
+         border-radius: 50px;
+      }
+      .btnpick{
+         background-color: var(--primary-color);
+         color: #000;
+         border: none;
+         border-radius: 50px;
+      }
+      .qunbtn{
+         color: #000000;
+         background-color: #F5F5F5;
+         border: none;
+         width: 252px;
+         height: 48px;
+         border-radius: 50px;
+         .btnincrease{
+            background-color: var(--primary-color);
+            border-radius: 50%;
+            width: 37px;
+            font-weight: bold;
+            height: 37px;
+            border: none;
+         }
+         .btndecrease{
+            background-color: var(--primary-color);
+            border-radius: 50%;
+            font-weight: bold;
+            width: 37px;
+            height: 37px;
+            border: none;
+         }
+      }
+   }
+}

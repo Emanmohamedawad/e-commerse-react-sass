@@ -1,0 +1,45 @@
+.footer {
+  background-color: #3C3C3B;
+  color: #FFFFFF;
+}
+.footer p {
+  font-size: 16px;
+}
+.footer .dataside {
+  border-left: 1px solid rgba(204, 204, 204, 0.341);
+}
+.footer .dataside .email .emailinput {
+  width: 576px;
+  color: var(--secondary-color);
+  font-size: 12px;
+  height: 48px;
+  border: none;
+  border-radius: 25px;
+}
+.footer .dataside .email .btnsub {
+  background-color: var(--primary-color);
+  color: #000000;
+  font-size: 12px;
+  width: 120px;
+  height: 38px;
+  border-radius: 25px;
+  border: none;
+  left: 28rem;
+  right: 0px;
+  bottom: 2px;
+  top: 4px;
+}
+.footer .dataside .leftside {
+  margin-right: 80px;
+}
+.footer .dataside .righ {
+  border-left: 1px solid rgba(204, 204, 204, 0.341);
+  padding-left: 40px;
+}
+.footer .copy {
+  border-top: 1px solid rgba(204, 204, 204, 0.341);
+}
+.footer .copy .navnas {
+  width: 100px;
+  height: 19px;
+}/*# sourceMappingURL=Footer.css.map */

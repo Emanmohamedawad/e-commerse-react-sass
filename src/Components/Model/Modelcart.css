@@ -1,0 +1,69 @@
+.modal .modal-dialog {
+  position: fixed !important;
+  right: -320px !important;
+  height: 100% !important;
+  max-height: unset !important;
+  margin: 0 !important;
+  transition: opacity 0.3s linear, right 0.3s ease-out !important;
+  right: 0 !important;
+}
+.modal .modal-dialog .modal-content {
+  height: 100% !important;
+  border-radius: 0 !important;
+  overflow-y: auto !important;
+  border: none;
+}
+.modal .modal-dialog .modal-content .modal-body .titlecart {
+  text-align: center !important;
+  color: #542E90 !important;
+  font-weight: bolder;
+  font-size: 28px;
+}
+.modal .modal-dialog .modal-content .modal-body h6 {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.modal .modal-dialog .modal-content .modal-body .itembox {
+  border: 0.75px solid #ECECEC;
+  border-radius: 7px;
+}
+.modal .modal-dialog .modal-content .modal-body .itembox .imgside {
+  width: 104px;
+  height: 104px;
+  margin-right: 10px;
+}
+.modal .modal-dialog .modal-content .modal-body .itembox .imgside img {
+  border-radius: 8px;
+}
+.modal .modal-dialog .modal-content .modal-body .itemdate h6 {
+  color: #542E90;
+}
+.modal .modal-dialog .modal-content .modal-body .itemdate .btnremove {
+  border-radius: 25px;
+  border: none;
+  color: #000000;
+  background-color: #FFF200;
+  margin-left: 20px;
+}
+.modal .modal-dialog .modal-content .modal-body h4 {
+  font-size: h4;
+}
+.modal .modal-dialog .modal-content .modal-body .btncart .btnreview {
+  background-color: #FFF200;
+  border: 0;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: bolder;
+  width: 196px;
+  height: 48px;
+}
+.modal .modal-dialog .modal-content .modal-body .btncart .btncheck {
+  background-color: #542E90;
+  border: 0;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bolder;
+  width: 196px;
+  height: 48px;
+}/*# sourceMappingURL=Modelcart.css.map */

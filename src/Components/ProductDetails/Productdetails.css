@@ -1,0 +1,97 @@
+.productdetails .tabs {
+  margin-left: 130px;
+}
+.productdetails p {
+  font-size: 16px;
+  font-weight: bold;
+}
+.productdetails .swiper {
+  margin-top: 20px !important;
+}
+.productdetails .swiper .SwiperSlide {
+  border-radius: 0 !important;
+}
+.productdetails .swiper .swiper-button-next, .productdetails .swiper .swiper-button-prev {
+  top: 94% !important;
+  width: 16px;
+  height: 24px;
+  color: #3C3C3B !important;
+}
+.productdetails .price h4 {
+  color: var(--secondary-color);
+}
+.productdetails .price span {
+  font-size: 12px;
+}
+.productdetails .price p {
+  text-decoration: line-through;
+}
+.productdetails .price .bgsale {
+  width: 77px;
+  height: 27px;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 3px;
+  background-color: var(--primary-color);
+  font-weight: bold;
+}
+.productdetails .size .circilesize {
+  border: 2px solid #ccc;
+  width: 60px;
+  height: 55px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  color: var(--secondary-color);
+  background-color: transparent;
+  cursor: pointer;
+}
+.productdetails .size .circilesize:hover {
+  background-color: #ccc;
+  color: #000000;
+}
+.productdetails .color .bordercolor {
+  border: 1px solid var(--secondary-color);
+  border-radius: 40px;
+}
+.productdetails .quantity label {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+.productdetails .quantity .btnadd {
+  color: #fff;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 50px;
+}
+.productdetails .quantity .btnpick {
+  background-color: var(--primary-color);
+  color: #000;
+  border: none;
+  border-radius: 50px;
+}
+.productdetails .quantity .qunbtn {
+  color: #000000;
+  background-color: #F5F5F5;
+  border: none;
+  width: 252px;
+  height: 48px;
+  border-radius: 50px;
+}
+.productdetails .quantity .qunbtn .btnincrease {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  width: 37px;
+  font-weight: bold;
+  height: 37px;
+  border: none;
+}
+.productdetails .quantity .qunbtn .btndecrease {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  font-weight: bold;
+  width: 37px;
+  height: 37px;
+  border: none;
+}/*# sourceMappingURL=Productdetails.css.map */

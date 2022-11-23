@@ -1,0 +1,21 @@
+.navsearch input {
+  border-radius: 25px;
+  width: 350px;
+  height: 48px;
+}
+.navsearch .boxnum {
+  border-radius: 100%;
+  box-sizing: border-box;
+  background-color: var(--primary-color);
+  color: #000000;
+  width: 15px;
+  font-size: 9.5px;
+  font-weight: bold;
+  height: 15px;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+.navsearch .Cart {
+  cursor: pointer;
+}/*# sourceMappingURL=NavSearch.css.map */

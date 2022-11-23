@@ -1,0 +1,21 @@
+
+.nav{
+   // background-color: #FFF100;
+   background-color: var(--primary-color);
+
+   color: #000000;
+   .logoname{
+      color:#000000 ;
+   }
+   .first-row{
+      span{
+         text-decoration:underline ;
+         font-weight: bolder;
+      }
+      p{
+         font-size: 14px;
+      }
+   }
+
+}
+
