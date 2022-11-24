@@ -9,7 +9,9 @@ const Home = React.lazy(() => import('./Pages/Home.jsx'));
 function App() {
   return (
     <>
-      <React.Suspense fallback={<div className='fs-1 text-white  bg-info h-100 text-center m-5 p-5'><h1>Loading...</h1></div>}>
+      <React.Suspense fallback={<div className='fs-1 text-white  bg-info h-100 text-center m-5 p-5'>
+      <h1>Loading...</h1><div class="spinner-border text-warning ms-auto" role="status" aria-hidden="true"></div>
+      </div>}>
       <Home/>
       </React.Suspense>
     </>
